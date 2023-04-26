@@ -9,13 +9,13 @@
 }
 
 
-p{
+p {
     margin: 20px 0;
     letter-spacing: 1px;
     text-align: justify;
 }
 
-.logo p{
+.logo p {
     letter-spacing: 2px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -29,6 +29,11 @@ p{
     background-color: #F0F8FF;
 }
 
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  プロフィール
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
 
 .profile__img {
     text-align: center;
@@ -52,8 +57,6 @@ p{
     position: relative;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -67,23 +70,10 @@ h5 {
     word-break: break-all;
 }
 
-.myname div{
+.myname div {
     font-size: clamp(2rem, 1.96rem + 0.2vw, 2.2rem);
     margin-top: -1.0em;
     font-weight: bold;
-}
-
-
-
-
-
-
-
-/*---------------------------------------------------*/
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -95,13 +85,8 @@ body {
     background-color: #F0F8FF;
 }
 
-
-@media screen and (max-width: 520px) {
-    body {
-        font-size: 1.4rem;
-    }
-}
-body::before, body::after {
+body::before,
+body::after {
     position: fixed;
     left: 0;
     content: "";
@@ -110,30 +95,69 @@ body::before, body::after {
     height: 20px;
     background-image: linear-gradient(90deg, #87CEFA 30%, white);
     z-index: 3;
-  }
-  body::before {
+}
+
+body::before {
     top: 0;
-  }
-  body::after {
+}
+
+body::after {
     bottom: 0;
-  }
-  
-  *:hover,
-  *::before,
-  *::after {
+}
+
+*:hover,
+*::before,
+*::after {
     transition: 0.2s;
-  }
+}
 
-/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-  
-  文字
-  
-  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
 
+/*---------------------------------------------------*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 520px) {
+    body {
+        font-size: 1.4rem;
+    }
+}
 
 a {
     color: inherit;
 }
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  アイコン等
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+.la,
+.las,
+.lab {
+    font-size: 1.2em;
+    color: #c0d9d3;
+    position: relative;
+    top: 2px;
+}
+
+/* 矢印 */
+.arrow {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c0d9d3;
+    border-bottom: 0;
+    border-left: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
 
 /*－－－－－－－－－－ 見出し －－－－－－－－－－*/
 
@@ -197,33 +221,7 @@ a {
     width: fit-content;
 }
 
-/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-  
-  アイコン等
-  
-  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
-.la,
-.las,
-.lab {
-    font-size: 1.2em;
-    color: #c0d9d3;
-    position: relative;
-    top: 2px;
-}
 
-/* 矢印 */
-.arrow {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #c0d9d3;
-    border-bottom: 0;
-    border-left: 0;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-}
 
 /*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
   
@@ -284,7 +282,7 @@ textarea {
 
 .list li::before {
     position: absolute;
-    top: 10px;
+    top: 9px;
     left: -16px;
     content: "";
     display: block;
@@ -351,6 +349,7 @@ textarea {
     background-color: #D7EEFF;
 }
 
+
 .box::before {
     position: absolute;
     top: 0;
@@ -375,6 +374,7 @@ textarea {
     margin-top: -1.6em;
     z-index: 2;
 }
+
 
 /* スマホ */
 @media screen and (max-width: 520px) {
@@ -404,7 +404,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c0d9d3;
+    background-color: #4682B4;
     border-radius: 50%;
     transition: 0.2s;
     -webkit-transition: 0.2s;
@@ -421,12 +421,12 @@ textarea {
 
 .snslist .snslist__item .lab,
 .snslist .snslist__item .las {
-    margin: 6px 1px 3px 3px;
+    margin: 1px 1px 3px 3px;
     font-size: 6rem;
     color: #fff;
 }
 
-.snslist .snslist__item:hover {
+.snslist .snslist__item:hover.mail {
     background-color: #ffee7c;
 }
 
@@ -646,18 +646,13 @@ print {
     }
 }
 
-/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-  
-  プロフィール
-  
-  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
 
 /*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
   
   フッター
   
   －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
-  footer {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
