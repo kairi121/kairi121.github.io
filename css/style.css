@@ -1,0 +1,665 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+
+.logo img {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.logo {
+    text-align: center;
+}
+
+p{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.logo p{
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.profile__img {
+    text-align: center;
+}
+
+.profile__img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: auto;
+}
+
+.myname {
+    font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
+    margin-top: -1.0em;
+    background-color: white;
+    position: relative;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Arial", "Zen Kaku Gothic New", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+.myname div{
+    font-size: clamp(2rem, 1.96rem + 0.2vw, 2.2rem);
+    margin-top: -1.0em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Zen Kaku Gothic New", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+    font-size: 1.6rem;
+    color: #333;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        font-size: 1.4rem;
+    }
+}
+body::before, body::after {
+    position: fixed;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(90deg, #87CEFA 30%, white);
+    z-index: 3;
+  }
+  body::before {
+    top: 0;
+  }
+  body::after {
+    bottom: 0;
+  }
+  
+  *:hover,
+  *::before,
+  *::after {
+    transition: 0.2s;
+  }
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  文字
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+
+
+a {
+    color: inherit;
+}
+
+/*－－－－－－－－－－ 見出し －－－－－－－－－－*/
+
+
+/*－－－－－－－－－－ 大見出し －－－－－－－－－－*/
+.headingL {
+    font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
+    margin: 40px 0;
+    margin: clamp(3rem, 2.8rem + 1vw, 4rem) 0;
+}
+
+.headingL.ja {
+    font-size: clamp(2.4rem, 2.24rem + 0.8vw, 3.2rem);
+}
+
+/*－－－－－－－－－－ 中見出し －－－－－－－－－－*/
+.headingM {
+    font-size: clamp(2.4rem, 2.28rem + 0.6vw, 3rem);
+    margin: clamp(2rem, 1.8rem + 1vw, 3rem) 0;
+}
+
+.headingM.ja {
+    font-size: clamp(2rem, 1.92rem + 0.4vw, 2.4rem);
+}
+
+/*－－－－－－－－－－ 小見出し －－－－－－－－－－*/
+.headingS {
+    font-size: clamp(2rem, 1.96rem + 0.2vw, 2.2rem);
+    margin: 20px 0;
+}
+
+.headingS.ja {
+    font-size: clamp(1.8rem, 1.76rem + 0.2vw, 2rem);
+}
+
+/*－－－－－－－－－－ 最小見出し －－－－－－－－－－*/
+.headingSS {
+    font-size: clamp(1.8rem, 1.76rem + 0.2vw, 2rem);
+    margin: 20px 0;
+}
+
+/*－－－－－－－－－－ 文字装飾 －－－－－－－－－－*/
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.marker {
+    background: linear-gradient(transparent 60%, #c0d9d3 60%);
+}
+
+.label {
+    display: block;
+    margin: 20px 0;
+    padding: 2px 10px;
+    background-color: #ffee7c;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  アイコン等
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+.la,
+.las,
+.lab {
+    font-size: 1.2em;
+    color: #c0d9d3;
+    position: relative;
+    top: 2px;
+}
+
+/* 矢印 */
+.arrow {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c0d9d3;
+    border-bottom: 0;
+    border-left: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  入力フォーム、ボタン
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+/* 入力フォーム */
+input,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 20px 8px 20px;
+    border: 1px solid #c0d9d3;
+    margin: 10px 0;
+}
+
+/* ボタン */
+.btn {
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #c0d9d3;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid #c0d9d3;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ffee7c;
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  リスト
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+.list,
+
+
+.list-number {
+    margin: 20px 0;
+}
+
+.list li {
+    position: relative;
+    margin-left: 16px;
+}
+
+.list li::before {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #c0d9d3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*－－－－－－－－－－ 数字付きリスト －－－－－－－－－－*/
+.list-number {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+.list-number li {
+    text-indent: -3.4rem;
+    padding-left: 3.6rem;
+}
+
+.list-number li> :not(:first-child) {
+    text-indent: 0;
+}
+
+/*－－－－－－－－－－ 表リスト －－－－－－－－－－*/
+.gridlist {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+}
+
+.gridlist .gridlist__label,
+.gridlist .gridlist__text {
+    padding: 6px 12px 4px;
+}
+
+.gridlist .gridlist__label {
+    display: flex;
+    align-items: center;
+    background-color: #c0d9d3;
+    color: #fff;
+}
+
+/* スマホ */
+@media screen and (max-width: 520px) {
+    .gridlist {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  枠組み
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+.box {
+    position: relative;
+    padding: 20px 40px 40px;
+    margin: 100px 0;
+    background-color: #fff;
+}
+
+.box::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #87CEFA;
+}
+
+.box> :first-child {
+    margin-top: 0;
+}
+
+.box> :last-child {
+    margin-bottom: 0;
+}
+
+.box .box__title {
+    position: relative;
+    margin-top: -1.6em;
+    z-index: 2;
+}
+
+/* スマホ */
+@media screen and (max-width: 520px) {
+    .box {
+        padding: 10px 20px 20px;
+        margin: 100px 0;
+    }
+
+    .box .box__title {
+        margin-top: -1.4em;
+    }
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  SNSアイコンリスト
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+.snslist {
+    justify-content: center;
+    margin: 40px 0 40px;
+}
+
+.snslist .snslist__item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0d9d3;
+    border-radius: 50%;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+}
+
+.snslist .snslist__item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.snslist .snslist__item .lab,
+.snslist .snslist__item .las {
+    margin: 6px 1px 3px 3px;
+    font-size: 6rem;
+    color: #fff;
+}
+
+.snslist .snslist__item:hover {
+    background-color: #ffee7c;
+}
+
+.snslist .snslist__item:hover.twitter {
+    background-color: #1DA1F2;
+}
+
+.snslist .snslist__item:hover.instagram {
+    background-color: #CF2E92;
+}
+
+.snslist .snslist__item:hover.facebook {
+    background-color: #4267b2;
+}
+
+.snslist .snslist__item:hover.youtube {
+    background-color: #DA1725;
+}
+
+.snslist .snslist__item:hover.tumblr {
+    background-color: #39475D;
+}
+
+/* スマホ */
+@media screen and (max-width: 520px) {
+    .snslist.flex {
+        gap: 10px;
+    }
+
+    .snslist.flex .snslist__item {
+        width: 80px;
+        height: 80px;
+    }
+
+    .snslist.flex .snslist__item .lab,
+    .snslist.flex .snslist__item .las {
+        font-size: 4rem;
+    }
+}
+
+.snslist2 {
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.snslist2 .snslist__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0d9d3;
+    padding: 10px 0;
+    border-radius: 9999px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+
+.snslist2 .snslist__item a {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.snslist2 .snslist__item .lab,
+.snslist2 .snslist__item .las {
+    margin: 6px 1px 3px 3px;
+    font-size: 3.4rem;
+    color: #fff;
+}
+
+.snslist2 .snslist__item:hover {
+    background-color: #ffee7c;
+}
+
+.snslist2 .snslist__item:hover.twitter {
+    background-color: #1DA1F2;
+}
+
+.snslist2 .snslist__item:hover.instagram {
+    background-color: #CF2E92;
+}
+
+.snslist2 .snslist__item:hover.facebook {
+    background-color: #4267b2;
+}
+
+.snslist2 .snslist__item:hover.youtube {
+    background-color: #DA1725;
+}
+
+.snslist2 .snslist__item:hover.tumblr {
+    background-color: #39475D;
+}
+
+/* スマホ */
+@media screen and (max-width: 520px) {
+    .snslist2.grid {
+        gap: 10px;
+    }
+
+    .snslist2.grid .snslist__item {
+        padding: 0;
+    }
+
+    .snslist2.grid .snslist__item a {
+        gap: 8px;
+        font-size: 2rem;
+    }
+
+    .snslist2.grid .snslist__item .las,
+    .snslist2.grid .snslist__item .lab {
+        font-size: 2.6rem;
+    }
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  レイアウト
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+/*－－－－－－－－－－ 横並び －－－－－－－－－－*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* 表示サイズを変えたい場合は200pxの部分を変更 */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*－－－－－－－－－－ 2カラム表示 －－－－－－－－－－*/
+.--2column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 60px;
+}
+
+/* タブレット、スマホでは１カラム */
+@media screen and (max-width: 768px) {
+    .--2column {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*－－－－－－－－－－ 左右反対 －－－－－－－－－－*/
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  全体のレイアウト
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+/*－－－－－－－－－－ コンテンツ全体の横幅、余白 －－－－－－－－－－*/
+.mainwrapper {
+    padding: 60px 10px;
+}
+
+.mainwrapper> :first-child {
+    margin-top: 0;
+}
+
+/* PC */
+@media screen and (min-width: 1025px),
+print {
+    .mainwrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 80px 20px;
+    }
+}
+
+/*－－－－－－－－－－ セクション －－－－－－－－－－*/
+section {
+    margin: 60px 0;
+}
+
+section> :first-child {
+    margin-top: 0;
+}
+
+section> :last-child {
+    margin-bottom: 0;
+}
+
+section section:first-of-type {
+    padding-top: 0;
+}
+
+section section:last-of-type {
+    padding-bottom: 0;
+}
+
+/* PC */
+@media screen and (min-width: 1025px),
+print {
+    section {
+        margin: 100px 0;
+    }
+}
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  プロフィール
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+
+/*－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+  
+  フッター
+  
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－*/
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+footer small {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
