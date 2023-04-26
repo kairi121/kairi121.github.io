@@ -17,7 +17,8 @@ p {
 
 .logo p{
     letter-spacing: 2px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
@@ -46,7 +47,7 @@ p {
 .myname {
     font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
     margin-top: -1.0em;
-    background-color: white;
+    background-color: #F0F8FF;
     position: relative;
 }
 
@@ -90,7 +91,9 @@ body {
     color: #333;
     letter-spacing: 2px;
     line-height: 1.8;
+    background-color: #F0F8FF;
 }
+
 
 @media screen and (max-width: 520px) {
     body {
@@ -344,7 +347,7 @@ textarea {
     position: relative;
     padding: 20px 40px 40px;
     margin: 100px 0;
-    background-color: #fff;
+    background-color: #D7EEFF;
 }
 
 .box::before {
