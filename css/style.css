@@ -282,7 +282,7 @@ textarea {
 
 .list li::before {
     position: absolute;
-    top: 9px;
+    top: 8px;
     left: -16px;
     content: "";
     display: block;
