@@ -8,22 +8,25 @@
     margin-top: 10px;
 }
 
-.logo {
-    text-align: center;
-}
 
-p{
-    letter-spacing: 2px;
-    font-weight: normal;
-    font-size: 20px;
-}
+p {
+    margin: 20px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+  }
 
 .logo p{
     letter-spacing: 2px;
     margin-bottom: 40px;
     font-weight: bolder;
     font-size: 20px;
+    text-align: center;
 }
+
+.logo {
+    text-align: center;
+}
+
 
 .profile__img {
     text-align: center;
@@ -54,7 +57,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Arial", "Zen Kaku Gothic New", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+    font-family: "Oooh Baby", "Zen Kaku Gothic New", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
@@ -277,7 +280,7 @@ textarea {
 
 .list li::before {
     position: absolute;
-    top: 8px;
+    top: 10px;
     left: -16px;
     content: "";
     display: block;
