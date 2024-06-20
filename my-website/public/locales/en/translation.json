@@ -1,0 +1,82 @@
+{
+  "aboutMe": "About Me",
+  "aboutMeContent": "I am Kairi Takagi, a graduate student at Nagoya University, majoring in Information and Communication Engineering.",
+  "education": "Education",
+  "educationContent": [
+    {
+      "text": [
+        "2017 - 2020 Aichi Prefectural Okazaki High School",
+        "2020 - 2024 Nagoya University, Department of Electrical and Electronic Information Engineering",
+        "2024 - Present Graduate School of Nagoya University, Information and Communication Engineering"
+      ]
+    }
+  ],
+  "publication": "Publications",
+  "publicationContent": [
+    {
+      "text": [
+        "82nd UBI Workshop 2024/05 \nKairi Takagi, Koki Takigami, Shin Katayama, Kenta Urano, Takuro Yonezawa, Nobuo Kawaguchi\nWarehouse Operation Optimization Using Quantum Annealing and Black-Box Optimization"
+      ]
+    }
+  ],
+  "awards": "Awards",
+  "awardsContent": [{
+    "citation": "2022 Excellence Award in Large Experiment",
+    "href": "https://www.nuee.nagoya-u.ac.jp/kyoiku/gakubu/experiment/h2022.php"
+  },
+  {
+    "citation": "82nd UBI Workshop Young Researcher Award",
+    "href": "https://sigubi.ipsj.or.jp/excellent/"
+  }
+  ],
+  "hobbies": "Hobbies",
+  "hobbiesContent": [
+    {
+      "text": [
+        "Sauna, Hot Springs",
+        "Photography",
+        "Gadgets",
+        "Travel",
+        "Anime, Manga"
+      ]
+    }
+  ],
+  "skills": "Skills",
+  "skillContent": [
+    {
+      "title": "App Development",
+      "text": [
+        "HTML / CSS / JavaScript / TypeScript",
+        "React",
+        "Django",
+        "Python"
+      ]
+    },
+    {
+      "title": "Research & Coursework",
+      "text": [
+        "C, C++, C#",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Others",
+      "text": [
+        "Docker",
+        "Git"
+      ]
+    }
+  ],
+  "intern": "Internship / Work Experience",
+  "internContent": [
+    {
+      "citation": "2023 - Present Exdata Corporation",
+      "href": "https://exdata.co.jp/"
+    }
+  ],
+  "firstBlogPostTitle": "First Blog Post",
+  "firstBlogPostContent": "This is the full content of the first blog post.",
+  "secondBlogPostTitle": "Second Blog Post",
+  "secondBlogPostContent": "This is the full content of the second blog post."
+}
