@@ -5,7 +5,7 @@ import SocialIcons from './SocialIcons';
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)' }}>
       <Container>
         <Navbar.Brand href="#home">Brand</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
