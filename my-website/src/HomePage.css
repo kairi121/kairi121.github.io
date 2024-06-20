@@ -19,13 +19,11 @@ header .navbar {
 }
 
 .circle-container {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  border-radius: 30%;
   overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
 }
 
