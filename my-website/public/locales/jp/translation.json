@@ -1,5 +1,82 @@
 {
-    "welcome": "私のウェブサイトへようこそ",
-    "greeting": "こんにちは、{{name}}さん！"
+  "aboutMe": "自己紹介",
+  "aboutMeContent": "名古屋大学大学院 工学研究科 情報・通信工学専攻の髙木魁利です。",
+  "education": "学歴",
+  "educationContent": [
+    {
+      "text": [
+        "2017 - 2020 愛知県立岡崎高等学校",
+        "2020 - 2024 名古屋大学工学部電気電子情報工学科",
+        "2024 - 現在 名古屋大学大学院 情報・通信工学専攻"
+      ]
+    }
+  ],
+  "publication": "出版物",
+  "publicationContent": [
+    {
+      "text": [
+        "第82回UBI研究会 2024/05 \n髙木 魁利 瀧上 昂希 片山 晋 浦野 健太 米澤 拓郎 河口 信夫\n量子アニーリングとブラックボックス最適化を用いた\n倉庫内業務最適化"
+      ]
+    }
+  ],
+  "awards": "受賞",
+  "awardsContent": [{
+    "citation": "2022年度 大実験成績優秀表彰",
+    "href": "https://www.nuee.nagoya-u.ac.jp/kyoiku/gakubu/experiment/h2022.php"
+  },
+  {
+    "citation": "第82回UBI研究会 ヤングリサーチャー賞",
+    "href": "https://sigubi.ipsj.or.jp/excellent/"
   }
-  
+  ],
+  "hobbies": "趣味",
+  "hobbiesContent": [
+    {
+      "text": [
+        "サウナ、温泉",
+        "写真",
+        "ガジェット",
+        "旅行",
+        "アニメ・漫画"
+      ]
+    }
+  ],
+  "skills": "スキル",
+  "skillContent": [
+    {
+      "title": "アプリ開発",
+      "text": [
+        "HTML / CSS / JavaScript / TypeScript",
+        "React",
+        "Django",
+        "Python"
+      ]
+    },
+    {
+      "title": "研究・授業",
+      "text": [
+        "C, C++, C##",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "title": "その他",
+      "text": [
+        "Docker",
+        "Git"
+      ]
+    }
+  ],
+  "intern": "インターンシップ / 職歴",
+  "internContent": [
+    {
+      "citation": "2023 - 現在 株式会社Exdata",
+      "href": "https://exdata.co.jp/"
+    }
+  ],
+  "firstBlogPostTitle": "最初のブログポスト",
+  "firstBlogPostContent": "これは最初のブログポストの全文です。",
+  "secondBlogPostTitle": "二番目のブログポスト",
+  "secondBlogPostContent": "これは二番目のブログポストの全文です。"
+}

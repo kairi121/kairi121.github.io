@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonGroup, Button } from 'react-bootstrap';
+import { ButtonGroup, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -10,9 +10,13 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <ButtonGroup aria-label="Language Switcher">
-      <Button variant="outline-primary" onClick={() => changeLanguage('en')}>EN</Button>
-      <Button variant="outline-primary" onClick={() => changeLanguage('jp')}>JP</Button>
+    <ButtonGroup>
+      <Button variant="outlined" onClick={() => changeLanguage('en')}>
+        EN
+      </Button>
+      <Button variant="outlined" onClick={() => changeLanguage('jp')}>
+        JP
+      </Button>
     </ButtonGroup>
   );
 };

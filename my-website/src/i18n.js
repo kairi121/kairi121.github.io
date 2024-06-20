@@ -8,10 +8,10 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'jp', // デフォルト言語を日本語に設定
     debug: true,
     interpolation: {
-      escapeValue: false // React already does escaping
+      escapeValue: false 
     },
     backend: {
       loadPath: '/locales/{{lng}}/translation.json'
@@ -19,4 +19,3 @@ i18n
   });
 
 export default i18n;
-
