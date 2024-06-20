@@ -22,6 +22,9 @@ const Footer = () => {
         <Typography variant="body2">
           Nagoya University, Japan
         </Typography>
+        <Typography variant="caption" display="block" sx={{ marginTop: 1 }}>
+          All rights reserved. Unauthorized use is prohibited.
+        </Typography>
       </Container>
     </FooterContainer>
   );
