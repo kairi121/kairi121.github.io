@@ -55,7 +55,7 @@ const BlogPostPage = () => {
       <Header />
       <Box sx={{ backgroundColor: '#e0e0e0', minHeight: '100vh', padding: 2 }}>
         <StyledContainer>
-          <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center', color: '#333' }}>
+          <Typography variant="h4" component="h1" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center', color: '#333' }}>
             {t(post.titleKey)}
           </Typography>
           {post.sections.map((section, index) => (
