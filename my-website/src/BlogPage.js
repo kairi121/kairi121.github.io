@@ -3,24 +3,32 @@ import { Container, Grid, Typography } from '@mui/material';
 import Header from './components/Header';
 import CardComponent from './components/BlogCard';
 import Footer from './components/Footer';
+import { useTranslation } from 'react-i18next';
 
 const blogPosts = [
   {
     id: 1,
-    titleKey: 'firstBlogPostTitle',
-    contentKey: 'firstBlogPostContent',
+    titleKey: 'daily',
+    contentKey: 'content1',
     isList: false,
   },
   {
     id: 2,
-    titleKey: 'secondBlogPostTitle',
-    contentKey: 'secondBlogPostContent',
+    titleKey: 'development',
+    contentKey: 'content2',
     isList: false,
   },
+  {
+    id: 3,
+    titleKey: 'research',
+    contentKey: 'content3',
+    isList: false,
+  }
   // 追加のブログ記事
 ];
 
 const BlogPage = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <Header />
@@ -34,6 +42,9 @@ const BlogPage = () => {
       <Container>
         <Typography variant="h2" component="h4" align="center" gutterBottom sx={{ marginTop: 4, fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
           BLOG
+        </Typography>
+        <Typography variant="h6" align="center" gutterBottom sx={{ marginBottom: 0 }}>
+          {t('clickOrTap')}
         </Typography>
         <Grid container spacing={2}>
           {blogPosts.map(post => (
