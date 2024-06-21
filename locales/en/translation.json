@@ -15,7 +15,7 @@
   "publicationContent": [
     {
       "text": [
-        "82nd UBI Workshop 2024/05 \nKairi Takagi, Koki Takigami, Shin Katayama, Kenta Urano, Takuro Yonezawa, Nobuo Kawaguchi\nWarehouse Operation Optimization Using Quantum Annealing and Black-Box Optimization"
+        "82nd UBI Workshop 2024/05 Kairi Takagi, Koki Takigami, Shin Katayama, Kenta Urano, Takuro Yonezawa, Nobuo Kawaguchi : Warehouse Operation Optimization Using Quantum Annealing and Black-Box Optimization"
       ]
     }
   ],
@@ -75,8 +75,12 @@
       "href": "https://exdata.co.jp/"
     }
   ],
-  "firstBlogPostTitle": "First Blog Post",
-  "firstBlogPostContent": "This is the full content of the first blog post.",
-  "secondBlogPostTitle": "Second Blog Post",
-  "secondBlogPostContent": "This is the full content of the second blog post."
+  "content1": "Let me introduce myself",
+  "content2": "Created a Homepage",
+  "content3": "Introduced Research Content",
+  "research": "Research",
+  "life": "Life",
+  "daily": "Daily",
+  "development": "Development",
+  "clickOrTap": "Click or Tap"
 }

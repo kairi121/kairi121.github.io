@@ -1,6 +1,6 @@
 {
   "aboutMe": "自己紹介",
-  "aboutMeContent": "名古屋大学大学院 工学研究科 情報・通信工学専攻の髙木魁利です。",
+  "aboutMeContent": "名古屋大学大学院 工学研究科 情報・通信工学専攻 修士1年の髙木魁利です。",
   "education": "学歴",
   "educationContent": [
     {
@@ -15,7 +15,7 @@
   "publicationContent": [
     {
       "text": [
-        "第82回UBI研究会 2024/05 \n髙木 魁利 瀧上 昂希 片山 晋 浦野 健太 米澤 拓郎 河口 信夫\n量子アニーリングとブラックボックス最適化を用いた\n倉庫内業務最適化"
+        "第82回UBI研究会 2024/05 \n髙木 魁利 瀧上 昂希 片山 晋 浦野 健太 米澤 拓郎 河口 信夫\n量子アニーリングとブラックボックス最適化を用いた倉庫内業務最適化"
       ]
     }
   ],
@@ -75,8 +75,12 @@
       "href": "https://exdata.co.jp/"
     }
   ],
-  "firstBlogPostTitle": "最初のブログポスト",
-  "firstBlogPostContent": "これは最初のブログポストの全文です。",
-  "secondBlogPostTitle": "二番目のブログポスト",
-  "secondBlogPostContent": "これは二番目のブログポストの全文です。"
+  "content1": "自己紹介します!",
+  "content2": "HPを作成してみた",
+  "content3": "研究内容のご紹介",
+  "research": "研究",
+  "life": "生活",
+  "daily": "日常",
+  "development": "開発",
+  "clickOrTap": "クリックまたはタップしてください"
 }
