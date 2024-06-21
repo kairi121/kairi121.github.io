@@ -10,9 +10,9 @@ const blogPosts = [
     id: 1,
     titleKey: 'content1',
     sections: [
-      { type: 'content', value: 'Coming soon ...' },
-      { type: 'image', value: '/images/photo1.jpg' },
-      { type: 'content', value: '画像と文章を希望順に追加可能!' }
+      { type: 'content', value: '名古屋大学 大学院 河口研究室所属の髙木魁利です。' },
+      { type: 'image', value: '/images/profile1.jpg' },
+      { type: 'content', value: '' }
     ]
   },
   {
